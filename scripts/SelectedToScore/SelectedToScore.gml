@@ -1,5 +1,6 @@
 // v2.3.0的脚本资产已更改，请参见\ n // https://help.yoyogames.com/hc/en-us/articles/360005277377
 function SelectedToScore(){
+	num_triplet ++;
 	var tmpList = ds_list_create();
 	for (var i = ds_list_size(player_list)-1; i >= 0; i--){
 		if(player_list[|i].selected){

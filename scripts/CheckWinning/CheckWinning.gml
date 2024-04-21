@@ -9,7 +9,7 @@ function CheckWinning(list_given){
 	for (var i = 0 ; i<ds_list_size(list_given);i++){
 		tmp_card[list_given[|i].uid] += 1;
 	}
-	show_debug_message(string(tmp_card));
+	//show_debug_message(string(tmp_card));
 	return HelperWinning(tmp_card,0,num_triplet);
        /* int[] cards = new int[10]
         for (int i = 0; i < hand.length; i++) {
