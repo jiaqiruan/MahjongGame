@@ -1,6 +1,9 @@
 randomize();
-playable_hand = 13;
-scoring_hand = 0;
+
+num_triplet = 0;
+//template for all zero array up to 29
+tmp_card_template = [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0];
+show_debug_message(array_length(tmp_card_template));
 deck_list = ds_list_create();
 player_list = ds_list_create();
 //whenever player want to play a hand, draw N card from deck

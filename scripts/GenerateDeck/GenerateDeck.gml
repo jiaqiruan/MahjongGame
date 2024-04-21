@@ -8,18 +8,21 @@ function GenerateDeck(){
 				var mahjongcard = instance_create_layer(0,0,"Instances",obj_card);
 				mahjongcard.suit = i;
 				mahjongcard.rank = j;
-				mahjongcard.uid = n+1;
+				mahjongcard.uid = ((i-1)*10)+j;
+				DetermineCard(mahjongcard);
 				ds_list_add(deck_list, mahjongcard);
 			}
 		}
 	}
+	
 	//wind suit, 1 for east, 2 for south, 3 for west, 4 for north
-	for (var i = 1; i<=4; i++){
+	/*for (var i = 1; i<=4; i++){
 		for (var n = 0; n <4 ; n++){
 			var mahjongcard = instance_create_layer(0,0,"Instances",obj_card);
 			mahjongcard.suit = 4;
 			mahjongcard.rank = i;
 			mahjongcard.uid = n+1;
+			DetermineCard(mahjongcard);
 			ds_list_add(deck_list, mahjongcard);
 		}
 	}
@@ -30,7 +33,8 @@ function GenerateDeck(){
 			mahjongcard.suit = 5;
 			mahjongcard.rank = i;
 			mahjongcard.uid = n+1;
+			DetermineCard(mahjongcard);
 			ds_list_add(deck_list, mahjongcard);
 		}
-	}
+	}*/
 }

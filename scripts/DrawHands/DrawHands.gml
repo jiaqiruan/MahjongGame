@@ -5,7 +5,6 @@ function DrawHands(number){
 		ds_list_add(player_list, card_drawn);
 		ds_list_delete(deck_list, ds_list_size(deck_list)-1);
 	}
-	playable_hand+=number;
 	DeckReposition(player_list,50,650);
 	DeckReposition(deck_list,50,50);
 }

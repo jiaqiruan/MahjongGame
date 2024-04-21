@@ -1,6 +1,6 @@
 /// @description 在此处插入描述 
 // 你可以在此编辑器中写入代码 
-DetermineCard();
+//DetermineCard();
 
 if(mouse_check_button_pressed(mb_left)){
 	if(collision_point(mouse_x, mouse_y, self, false, false)){

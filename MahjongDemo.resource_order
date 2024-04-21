@@ -52,6 +52,7 @@
     {"name":"spr_mahjong_southwind","order":1,"path":"sprites/spr_mahjong_southwind/spr_mahjong_southwind.yy",},
     {"name":"spr_mahjong_bamboo3","order":3,"path":"sprites/spr_mahjong_bamboo3/spr_mahjong_bamboo3.yy",},
     {"name":"OrderList","order":16,"path":"scripts/OrderList/OrderList.yy",},
+    {"name":"HelperWinning","order":18,"path":"scripts/HelperWinning/HelperWinning.yy",},
     {"name":"OrderPlayable","order":14,"path":"scripts/OrderPlayable/OrderPlayable.yy",},
     {"name":"spr_mahjong_wan2","order":3,"path":"sprites/spr_mahjong_wan2/spr_mahjong_wan2.yy",},
     {"name":"spr_mahjong_bamboo9","order":8,"path":"sprites/spr_mahjong_bamboo9/spr_mahjong_bamboo9.yy",},

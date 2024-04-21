@@ -17,5 +17,5 @@ if(keyboard_check_pressed(vk_enter)){
 	CheckPotential();
 }
 if(keyboard_check_pressed(ord("W"))){
-	CheckWinning();
+	show_debug_message(CheckWinning(player_list));
 }

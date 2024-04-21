@@ -32,8 +32,6 @@ function CheckPotential(){
 					break;
 				}
 			}
-			playable_hand -= 3;
-			scoring_hand += 3;
 			//all good, move all card to the score deck
 			SelectedToScore();
 		}
@@ -43,14 +41,10 @@ function CheckPotential(){
 			if (potential_list[|0].suit == potential_list[|1].suit && potential_list[|2].suit == potential_list[|1].suit ){
 				//pung
 				if (potential_list[|0].rank == potential_list[|1].rank && potential_list[|2].rank == potential_list[|1].rank){
-					playable_hand -= 2;
-					scoring_hand += 3;
 					SelectedToScore();
 				}
 				//only suit 1, 2 and 3 have chow
 				if (potential_list[|0].suit<=3 && potential_list[|0].rank+1 == potential_list[|1].rank && potential_list[|1].rank+1 == potential_list[|2].rank){
-					playable_hand -= 2;
-					scoring_hand += 3;
 					SelectedToScore();
 				}
 			}else{
